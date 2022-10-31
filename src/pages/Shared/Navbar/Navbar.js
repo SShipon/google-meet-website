@@ -67,26 +67,30 @@ const Navbar = () => {
       {/* <!--nav--> */}
       <nav className={`${showBar  ? "block " : "hidden"}`}>
         <ul className="list-reset md:flex md:items-center">
-          <li className="md:ml-4 sm:mt-4">
-          <div  className="indicator">
-
+          <li className="md:ml-4 sm:mt-4 md:mt-0">
+          <div  className="indicator"> 
           <i class="fa-solid fa-user text-xl"></i> 
              <span class="badge badge-primary badge-sm indicator-item">+3</span> 
              </div>
           </li>
-          <li className="md:ml-8 sm:mt-4">
-             <div  className="indicator">
 
+          <li className="md:ml-8 sm:mt-4 md:mt-0">
+             <div  className="indicator"> 
              <i class="fas fa-comment-dots text-xl"></i>
              <span class="badge badge-secondary badge-sm  indicator-item">+9</span> 
              </div>
           </li>
-          <li className="md:ml-8 sm:mt-4">
-            <div class="indicator ">
+         
+          <li className="md:ml-8 sm:mt-4 md:mt-0">
+            <div class="indicator">
             <i class="fa-sharp fa-solid fa-bell text-xl"></i>
               <span class="badge  badge-primary badge-sm indicator-item">+9</span>
             </div>
           </li>
+          <li className="md:ml-8 sm:mt-4 md:mt-0"> 
+             <p className="font-medium">Mathews</p>  
+          </li>
+
           <li className="md:ml-8 ">
             <label tabIndex="0" class="btn btn-ghost btn-circle avatar online placeholder">
               <div class="w-10 rounded-full">
