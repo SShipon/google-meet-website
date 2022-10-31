@@ -1,4 +1,35 @@
-import React from "react";
+import React from "react"; 
+import SingleCard from "./SingleCard";
+
+const vidoes = [
+    {
+        id: '1',
+        photo:'https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/',
+        title:'Mission impossible dead reckoning IMX',
+        published:'American, 10 June 2020',
+        react:10,
+        comments:14,
+        share:8
+    },
+    {
+        id: '2',
+        photo:'https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/',
+        title:'Mission impossible dead reckoning IMX',
+        published:'American, 10 June 2020',
+        react:10,
+        comments:14,
+        share:8
+    },
+    {
+        id: '3',
+        photo:'https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/',
+        title:'Mission impossible dead reckoning IMX',
+        published:'American, 10 June 2020',
+        react:10,
+        comments:14,
+        share:8
+    }
+]
 
 const SocialHome = () => {
   return (
@@ -62,7 +93,17 @@ const SocialHome = () => {
             </div> 
 
           
-          <div class="col-span-3 ">07</div>
+          <div class="col-span-3">
+          <div className="grid grid-cols-3 gap-2">
+          {
+            vidoes.map(vdo => {
+                <SingleCard vdo={vdo} />
+            })
+        }
+          </div>
+
+        
+          </div>
         </div>
       </div>
     </div>
