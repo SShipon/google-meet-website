@@ -70,21 +70,21 @@ const Navbar = () => {
           <li className="md:ml-4 sm:mt-4 md:mt-0">
           <div  className="indicator"> 
           <i class="fa-solid fa-user text-xl"></i> 
-             <span class="badge badge-primary badge-sm indicator-item">+3</span> 
+             <span class="badge badge-primary p-0 badge-sm indicator-item">+3</span> 
              </div>
           </li>
 
           <li className="md:ml-8 sm:mt-4 md:mt-0">
              <div  className="indicator"> 
              <i class="fas fa-comment-dots text-xl"></i>
-             <span class="badge badge-secondary badge-sm indicator-item">+9</span> 
+             <span class="badge badge-secondary badge-sm  p-0 indicator-item">+9</span> 
              </div>
           </li>
          
           <li className="md:ml-8 sm:mt-4 md:mt-0">
             <div class="indicator">
             <i class="fa-sharp fa-solid fa-bell text-xl"></i>
-              <span class="badge badge-primary badge-sm indicator-item">+9</span>
+              <span class="badge badge-primary badge-sm p-0 indicator-item">+9</span>
             </div>
           </li>
           <li className="md:ml-8 sm:mt-4 md:mt-0"> 

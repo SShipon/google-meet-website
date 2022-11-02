@@ -124,13 +124,12 @@ const SocialHome = () => {
                     <iframe src={vdo.videoUrl} frameborder="0"></iframe>
                   </div>
                   <div className="flex items-center justify-between px-2">
-                    <img src={vdo.photo} height='30px' width='30px' alt="author photo" />
+                    <img className="rounded-full" src={vdo.photo} height='30px' width='30px' alt="author photo" />
                     <h5 className="pr-4 ml-2">{vdo.title}</h5>
                     <i class="fa-solid fa-ellipsis-vertical"></i>
                   </div>
-                  <small className="pl-12">{vdo.published}</small>
-                  <p><i class="fa-solid fa-scrubber"></i></p>
-                  <hr />
+                  <small className="pl-12 "><i class="fa-solid fa-circle text-xs"></i> {vdo.published}</small>  
+                  <hr className="my-4" /> 
                   <div className="flex items-center justify-between px-2">
                     <small><i class="fa-sharp fa-solid fa-heart pr-1"></i>{vdo.react}</small>
                     <small><i class="fa-solid fa-comment-dots pr-1"></i>{vdo.comments}</small>
