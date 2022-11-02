@@ -1,7 +1,6 @@
 import React from 'react';
 
-const SingleCard = (props) => { 
-console.log(props);
+const SingleCard = () => {  
     return (
         <div className="">
                     {/* <div>
