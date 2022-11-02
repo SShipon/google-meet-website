@@ -9,6 +9,7 @@ const SocialHome = () => {
       photo: photo,
       title: "Mission impossible dead reckoning IMX",
       published: "American, 10 June 2020",
+      views:17,
       react: "10 Love",
       comments: '14 Comments',
       share: '9 Share',
@@ -19,6 +20,7 @@ const SocialHome = () => {
       photo: photo,
       title: "Mission impossible dead reckoning IMX",
       published: "American, 10 June 2020",
+      views:17,
       react: "10 Love",
       comments: '14 Comments',
       share: '9 Share',
@@ -29,6 +31,7 @@ const SocialHome = () => {
       photo: photo,
       title: "Mission impossible dead reckoning IMX",
       published: "American, 10 June 2020",
+      views:17,
       react: "10 Love",
       comments: '14 Comments',
       share: '9 Share',
@@ -39,6 +42,7 @@ const SocialHome = () => {
       photo: photo,
       title: "Mission impossible dead reckoning IMX",
       published: "American, 10 June 2020",
+      views:17,
       react: "10 Love",
       comments: '14 Comments',
       share: '9 Share',
@@ -49,6 +53,7 @@ const SocialHome = () => {
       photo: photo,
       title: "Mission impossible dead reckoning IMX",
       published: "American, 10 June 2020",
+      views:17,
       react: "10 Love",
       comments: '14 Comments',
       share: '9 Share',
@@ -59,28 +64,28 @@ const SocialHome = () => {
     <div>
       <div className="px-4 py-6">
         <div class="grid grid-cols-4 gap-4 ">
-          <div class="col-span-1">
+          <div class="col-span-1 scroll">
             <div className="">
               <h2 className="text-2xl font-medium mb-2">Key Features</h2>
               <div className="bg-gray-50 rounded shadow-sm">
                 <div className="flex items-center bg-primary text-white pl-4 py-3 rounded">
                   <i class="fa-solid fa-clapperboard mr-2"></i>
-                  <h4>Social (News Feed)</h4>
+                  <h4>Play</h4>
                 </div>
                 <hr />
                 <div className="flex items-center pl-4 py-3 rounded">
                   <i class="fa-solid fa-video mr-2"></i>
-                  <h4>Meeting</h4>
+                  <h4>Meet</h4>
                 </div>
                 <hr />
                 <div className="flex items-center pl-4 py-3 rounded">
                   <i class="fa-solid fa-comment-dots mr-2"></i>
-                  <h4>Chatting</h4>
+                  <h4>Hangout</h4>
                 </div>
                 <hr />
                 <div className="flex items-center pl-4 py-3 rounded">
                   <i class="fa-solid fa-play mr-2"></i>
-                  <h4>Play</h4>
+                  <h4>Moment</h4>
                 </div>
               </div>
             </div>
@@ -128,7 +133,7 @@ const SocialHome = () => {
                     <h5 className="pr-4 ml-2">{vdo.title}</h5>
                     <i class="fa-solid fa-ellipsis-vertical"></i>
                   </div>
-                  <small className="pl-12 "><i class="fa-solid fa-circle text-xs"></i> {vdo.published}</small>  
+                  <small className="pl-12 "><i class="fa-solid fa-circle text-xs text-[8px]"></i> {vdo.published} <span>views: {vdo.views}</span></small>  
                   <hr className="my-4" /> 
                   <div className="flex items-center justify-between px-2">
                     <small><i class="fa-sharp fa-solid fa-heart pr-1"></i>{vdo.react}</small>
