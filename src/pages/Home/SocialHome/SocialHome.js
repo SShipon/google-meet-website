@@ -1,5 +1,6 @@
 import React from "react";
 import photo from "../../../assets/images/osthir.png";
+import { Link } from 'react-router-dom';
 
 const videoItems = [
   {
@@ -81,8 +82,7 @@ const videoItems = [
   },
 ];
 
-const SocialHome = () => {
-  
+const SocialHome = () => { 
 
   return (
     <div>
@@ -100,7 +100,7 @@ const SocialHome = () => {
                 <hr />
                 <div className="flex items-center pl-4 py-3 rounded">
                   <i class="fa-solid fa-video mr-2"></i>
-                  <h4>Meet</h4>
+                  <h4><Link to='meet' className="">Meet</Link></h4>
                 </div>
                 <hr />
                 <div className="flex items-center pl-4 py-3 rounded">

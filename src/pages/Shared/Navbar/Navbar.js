@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [showBar, setShowBar] = useState(true);
@@ -12,12 +13,11 @@ const Navbar = () => {
       {/* <!--logo--> */}
       <div className="mb-4 flex items-center justify-between md:mb-0">
         <h1 className="leading-none text-2xl text-blue-500">
-          <a
-            href="@"
+          <Link to='/' 
             className="font-bold no-underline text-blue-500 hover:to-blue-600"
           >
             MetaViral Pro
-          </a>
+          </Link>
         </h1>
         {/* <!--bar for mobile menu--> */}
         <a
@@ -77,7 +77,7 @@ const Navbar = () => {
           <li className="md:ml-8 sm:mt-4 md:mt-0">
              <div  className="indicator"> 
              <i class="fas fa-comment-dots text-xl"></i>
-             <span class="badge bg-[#cc1016] border-[#cc1016] badge-sm  p-0 indicator-item">+9</span> 
+             <span class="badge bg-[#cc1016] border-[#cc1016] badge-sm p-0 indicator-item">+9</span> 
              </div>
           </li>
          
