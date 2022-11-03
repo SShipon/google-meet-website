@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="p-4 pb-0 border-b shadow-lg bg-white md:flex md:items-center md:justify-between md:pb-2">
+    <div className="p-4 pb-0 border-b shadow-lg sm:w-screen bg-white md:flex md:items-center md:justify-between md:pb-2">
       {/* <!--logo--> */}
       <div className="mb-4 flex items-center justify-between md:mb-0">
         <h1 className="leading-none text-2xl text-blue-500">
@@ -70,21 +70,21 @@ const Navbar = () => {
           <li className="md:ml-4 sm:mt-4 md:mt-0">
           <div  className="indicator"> 
           <i class="fa-solid fa-user text-xl"></i> 
-             <span class="badge badge-primary p-0 badge-sm indicator-item">+3</span> 
+             <span class="badge  bg-[#cc1016] border-[#cc1016] p-0 badge-sm indicator-item">+3</span> 
              </div>
           </li>
 
           <li className="md:ml-8 sm:mt-4 md:mt-0">
              <div  className="indicator"> 
              <i class="fas fa-comment-dots text-xl"></i>
-             <span class="badge badge-secondary badge-sm  p-0 indicator-item">+9</span> 
+             <span class="badge bg-[#cc1016] border-[#cc1016] badge-sm  p-0 indicator-item">+9</span> 
              </div>
           </li>
          
           <li className="md:ml-8 sm:mt-4 md:mt-0">
             <div class="indicator">
             <i class="fa-sharp fa-solid fa-bell text-xl"></i>
-              <span class="badge badge-primary badge-sm p-0 indicator-item">+9</span>
+              <span class="badge bg-[#cc1016] border-[#cc1016] badge-sm p-0 indicator-item">+9</span>
             </div>
           </li>
           <li className="md:ml-8 sm:mt-4 md:mt-0"> 

@@ -1,74 +1,99 @@
 import React from "react";
 import photo from "../../../assets/images/osthir.png";
 
+const videoItems = [
+  {
+    id: "1",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "2",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "3",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "4",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "5",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "6",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "7",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+];
+
 const SocialHome = () => {
-  const videoItems = [
-    {
-      id: "1",
-      videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
-      photo: photo,
-      title: "Mission impossible dead reckoning IMX",
-      published: "American, 10 June 2020",
-      views:17,
-      react: "10 Love",
-      comments: '14 Comments',
-      share: '9 Share',
-    },
-    {
-      id: "2",
-      videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
-      photo: photo,
-      title: "Mission impossible dead reckoning IMX",
-      published: "American, 10 June 2020",
-      views:17,
-      react: "10 Love",
-      comments: '14 Comments',
-      share: '9 Share',
-    },
-    {
-      id: "3",
-      videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
-      photo: photo,
-      title: "Mission impossible dead reckoning IMX",
-      published: "American, 10 June 2020",
-      views:17,
-      react: "10 Love",
-      comments: '14 Comments',
-      share: '9 Share',
-    },
-    {
-      id: "4",
-      videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
-      photo: photo,
-      title: "Mission impossible dead reckoning IMX",
-      published: "American, 10 June 2020",
-      views:17,
-      react: "10 Love",
-      comments: '14 Comments',
-      share: '9 Share',
-    },
-    {
-      id: "5",
-      videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
-      photo: photo,
-      title: "Mission impossible dead reckoning IMX",
-      published: "American, 10 June 2020",
-      views:17,
-      react: "10 Love",
-      comments: '14 Comments',
-      share: '9 Share',
-    },
-  ];
+  
 
   return (
     <div>
       <div className="px-4 py-6">
         <div class="grid grid-cols-4 gap-4 ">
-          <div class="col-span-1 scroll">
-            <div className="">
+          {/* ---left side bar start--- */}
+          <div class="col-span-1 overflow-clip">
+            <div  >
               <h2 className="text-2xl font-medium mb-2">Key Features</h2>
               <div className="bg-gray-50 rounded shadow-sm">
-                <div className="flex items-center bg-primary text-white pl-4 py-3 rounded">
+                <div className="flex items-center bg-[#0a66c2] text-white pl-4 py-3 rounded">
                   <i class="fa-solid fa-clapperboard mr-2"></i>
                   <h4>Play</h4>
                 </div>
@@ -120,13 +145,15 @@ const SocialHome = () => {
               </div>
             </div>
           </div>
+          {/* ---left side bar end--- */}
 
+        {/* ---right video part start--- */}
           <div class="col-span-3">
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4">
               {videoItems.map((vdo) => (
                 <div>
                   <div>
-                    <iframe src={vdo.videoUrl} frameborder="0"></iframe>
+                    <iframe width='100%' src={vdo.videoUrl} frameBorder="0"></iframe>
                   </div>
                   <div className="flex items-center justify-between px-2">
                     <img className="rounded-full" src={vdo.photo} height='30px' width='30px' alt="author photo" />
@@ -144,6 +171,8 @@ const SocialHome = () => {
               ))}
             </div>
           </div>
+          {/* ---right video part end--- */}
+
         </div>
       </div>
     </div>
