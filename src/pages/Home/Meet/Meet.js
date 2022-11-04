@@ -21,14 +21,14 @@ const sliderItems = [
     image: g1,
     title: "Get a link you can share",
     headText: "New Meeting",
-    description: "Click New Meeting to get a link you can send to people you want to meet with",
+    description: "Click to get a link you can send to people you want to meet with",
   },
   {
     image: g2,
     title: "Plan ahead",
     headText: "New Meeting",
     description:
-      "Click New Meeting  to schedule to meetings in Google Calender and send invites to participants",
+      "Click to schedule to meetings in Google Calender and send invites to participants",
   },
   {
     image: g3,
@@ -62,7 +62,7 @@ const Meet = () => {
           </div>
 
           <div className="rounded sm:mt-4 md:mt-0 lg:mt-0">
-            <form className={`w-[250px]`}>
+            <form className={`w-[260px]`}>
               <label
                 for="default-search"
                 class="mb-2 md:text-sm sm:text-xl focus:border-blue-600 font-medium text-dark sr-only "
@@ -99,7 +99,7 @@ const Meet = () => {
               <div><img className="mx-auto" src={item.image} alt="carousel image" /></div>
               <div className="md:w-96 sm:w-auto mx-auto">
               <h4 className="text-2xl text-dark text-center">{item.title}</h4>
-              <p className="text-center">{item.description}</p>
+              <p className="text-center">{item?.description.slice(0, 6) } <span className="font-bold">{item.headText}</span> {item.description.slice(6, 150)}</p>
               </div>
             </div> 
         ))}
