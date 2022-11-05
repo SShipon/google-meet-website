@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import photo from "../../../assets/images/osthir.png";
 import { Link } from 'react-router-dom';
 
@@ -84,6 +84,12 @@ const videoItems = [
 
 const SocialHome = () => { 
 
+  const [showCommunity, setShowCommunity] = useState(false);
+
+  const toggleCommunity = () => {
+    setShowCommunity(!showCommunity)
+  }
+
   return (
     <div>
       <div className="px-4 py-6">
@@ -142,6 +148,47 @@ const SocialHome = () => {
                   <i class="fa-solid fa-circle-dot mr-2"></i>
                   <h4>Options</h4>
                 </div>
+              </div>
+            </div>
+
+            <div class="mt-2 ">
+              <div className="flex justify-between items-center">
+              <h2 className="text-2xl font-medium mb-2">Community</h2>
+              <i onClick={toggleCommunity} class={`fa-solid ${showCommunity ? 'fa-chevron-up ': 'fa-chevron-down'} pr-2`}></i>
+              </div>
+              <div className={`${showCommunity ? 'block': 'hidden'} bg-gray-50 rounded shadow-sm py-3 grid grid-cols-3 gap-3`}>
+                 <div className="text-center">
+                 <i class="fa-solid fa-calendar-day"></i>
+                  <p>Events</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-file-lines"></i>
+                  <p>Blogs</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-shop"></i>
+                  <p>Markets</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-comments"></i>
+                  <p>Forums</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-file-pen"></i>
+                  <p>Article</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-brands fa-product-hunt"></i>
+                  <p>Products</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-people-group"></i>
+                  <p>My Groups</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-regular fa-file-lines"></i>
+                  <p>Pages</p>
+                 </div>
               </div>
             </div>
           </div>

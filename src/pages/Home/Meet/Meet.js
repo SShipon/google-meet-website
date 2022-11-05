@@ -1,5 +1,5 @@
 import React from "react";
-import './Meet.css';
+import "./Meet.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -10,7 +10,7 @@ import g3 from "../../../assets/images/g3.svg";
 const settings = {
   dots: true,
   infinite: true,
-  arrows:true,
+  arrows: true,
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -21,7 +21,8 @@ const sliderItems = [
     image: g1,
     title: "Get a link you can share",
     headText: "New Meeting",
-    description: "Click to get a link you can send to people you want to meet with",
+    description:
+      "Click to get a link you can send to people you want to meet with",
   },
   {
     image: g2,
@@ -88,23 +89,32 @@ const Meet = () => {
             Learn more
           </a>{" "}
           about google Meet
-        </p> 
+        </p>
       </div>
 
       {/* right-div carousel */}
       <div className="grid md:grid-cols-1 sm:grid-cols-1 md:w-[45%] sm:w-[90%] mx-auto">
-          <Slider {...settings}>
-        {sliderItems.map((item) => (
+        <Slider {...settings}>
+          {sliderItems.map((item) => (
             <div>
-              <div><img className="mx-auto" src={item.image} alt="carousel image" /></div>
-              <div className="md:w-96 sm:w-auto mx-auto">
-              <h4 className="text-2xl text-dark text-center">{item.title}</h4>
-              <p className="text-center">{item?.description.slice(0, 6) } <span className="font-bold">{item.headText}</span> {item.description.slice(6, 150)}</p>
+              <div>
+                <img
+                  className="mx-auto"
+                  src={item.image}
+                  alt="carousel image"
+                />
               </div>
-            </div> 
-        ))}
-          </Slider>
-           
+              <div className="md:w-96 sm:w-auto mx-auto">
+                <h4 className="text-2xl text-dark text-center">{item.title}</h4>
+                <p className="text-center">
+                  {item?.description.slice(0, 6)}{" "}
+                  <span className="font-bold">{item.headText}</span>{" "}
+                  {item.description.slice(6, 150)}
+                </p>
+              </div>
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
   );
