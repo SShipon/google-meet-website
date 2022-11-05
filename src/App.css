@@ -1,11 +1,16 @@
-*, html, body {
-  margin: 0;
-  padding: 0;  
+* {
+  padding:0;
+  margin:0;
+}
+
+html, body { 
   box-sizing: border-box;
+  overflow-x: hidden;  
 }
 
 body{
   /* font-family: 'Tajawal', sans-serif;  */
   font-family: "Google Sans Display",Roboto,Arial,sans-serif; 
+  background-color: #F8F8F8 ;
   
 }

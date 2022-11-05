@@ -41,7 +41,7 @@ const sliderItems = [
 
 const Meet = () => {
   return (
-    <div className="md:flex justify-between items-center px-6 py-8">
+    <div className="md:flex justify-between items-center w-screen h-screen px-6 py-8">
       {/* left-div meeting head text*/}
       <div className="md:w-[45%]">
         <h1 className="md:text-5xl sm:text-3xl">
@@ -53,7 +53,7 @@ const Meet = () => {
         </p>
 
         <div className="md:flex sm:flex-wrap items-center gap-4">
-          <div className="bg-[#1a73e8] text-[#fff] rounded p-3 w-[190px] max-w-[200px] ">
+          <div className="bg-[#1a73e8] text-[#fff] rounded p-3 w-[160px] min-w-[150px] ">
             <p className="md:text-sm sm:text-sm">
               <span>
                 <i class="fa-solid fa-video "></i>
