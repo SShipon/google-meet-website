@@ -204,15 +204,15 @@ const SocialHome = () => {
                   </div>
                   <div className="flex items-center justify-between px-2">
                     <img className="rounded-full" src={vdo.photo} height='30px' width='30px' alt="author photo" />
-                    <h5 className="pr-4 ml-2">{vdo.title}</h5>
+                    <h5 className="pr-4 ml-2 text-[#0f0f0f]">{vdo.title}</h5>
                     <i class="fa-solid fa-ellipsis-vertical"></i>
                   </div>
-                  <small className="pl-12 "><i class="fa-solid fa-circle text-xs text-[8px]"></i> {vdo.published} <span>views: {vdo.views}</span></small>  
+                  <small className="pl-12 text-[#606060]"><i class="fa-solid fa-circle text-xs text-[8px]"></i> {vdo.published} <span>views: {vdo.views}</span></small>  
                   <hr className="my-4" /> 
-                  <div className="flex items-center justify-between px-2">
-                    <small><i class="fa-sharp fa-solid fa-heart pr-1"></i>{vdo.react}</small>
-                    <small><i class="fa-solid fa-comment-dots pr-1"></i>{vdo.comments}</small>
-                    <small><i class="fa-solid fa-share-nodes pr-1"></i>{vdo.share}</small>
+                  <div className="flex items-center justify-between px-2 text-[#606060]">
+                    <small><i class="fa-sharp fa-solid fa-heart pr-1 "></i>{vdo.react}</small>
+                    <small><i class="fa-solid fa-comment-dots pr-1 "></i>{vdo.comments}</small>
+                    <small><i class="fa-solid fa-share-nodes pr-1 "></i>{vdo.share}</small>
                   </div>
                 </div>
               ))}
