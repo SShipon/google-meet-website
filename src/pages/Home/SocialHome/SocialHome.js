@@ -92,11 +92,11 @@ const SocialHome = () => {
 
   return (
     <div>
-      <div className="px-4 py-6">
-        <div class="grid grid-cols-4 gap-4 ">
+      <div className="px-4 py-6 mt-[70px]">
+        <div class="grid grid-cols-6 gap-4 ">
           {/* ---left side bar start--- */}
-          <div class="col-span-1 sticky">
-            <div  >
+          <div class="col-span-1">
+            <div>
               <h2 className="text-2xl font-medium mb-2 text-[#444]">Key Features</h2>
               <div className="bg-[#FFFFFF] rounded shadow-sm">
                 <div className="flex items-center bg-[#0a66c2] text-white pl-4 py-3 rounded">
@@ -195,7 +195,7 @@ const SocialHome = () => {
           {/* ---left side bar end--- */}
 
         {/* ---right video part start--- */}
-          <div class="col-span-3">
+          <div class="col-span-4">
             <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4">
               {videoItems.map((vdo) => (
                 <div className="bg-[#FFFFFF]">
@@ -219,6 +219,104 @@ const SocialHome = () => {
             </div>
           </div>
           {/* ---right video part end--- */}
+
+          <div class="col-span-1 sticky">
+            <div>
+              <h2 className="text-2xl font-medium mb-2 text-[#444]">Key Features</h2>
+              <div className="bg-[#FFFFFF] rounded shadow-sm">
+                <div className="flex items-center bg-[#0a66c2] text-white pl-4 py-3 rounded">
+                  <i class="fa-solid fa-clapperboard mr-2"></i>
+                  <h4 className="">Play</h4>
+                </div>
+                <hr />
+                <div className="flex items-center pl-4 py-3 rounded">
+                  <i class="fa-solid fa-video mr-2"></i>
+                  <h4><Link to='meet' className="">Meet</Link></h4>
+                </div>
+                <hr />
+                <div className="flex items-center pl-4 py-3 rounded">
+                  <i class="fa-solid fa-comment-dots mr-2"></i>
+                  <h4>Hangout</h4>
+                </div>
+                <hr />
+                <div className="flex items-center pl-4 py-3 rounded">
+                  <i class="fa-solid fa-play mr-2"></i>
+                  <h4>Moment</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-2">
+              <h2 className="text-2xl font-medium mb-2 text-[#444]">Account</h2>
+              <div className="rounded bg-[#FFFFFF] shadow-sm">
+                <div className="flex items-center  text-dark pl-4 py-3 rounded">
+                  <i class="fa-solid fa-user mr-2"></i>
+                  <h4>My Profile</h4>
+                </div>
+                <hr />
+                <div className="flex items-center text-dark pl-4 py-3 rounded">
+                  <i class="fa-solid fa-user-pen mr-2"></i>
+                  <h4>Edit Profile</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-2 ">
+              <h2 className="text-2xl font-medium mb-2 text-[#444]">Additional Settings</h2>
+              <div className="bg-[#FFFFFF] rounded shadow-sm">
+                <div className="flex items-center  text-dark pl-4 py-3 rounded">
+                  <i class="fa-solid fa-gear mr-2"></i>
+                  <h4>Settings</h4>
+                </div>
+                <hr />
+                <div className="flex items-center text-dark pl-4 py-3 rounded">
+                  <i class="fa-solid fa-circle-dot mr-2"></i>
+                  <h4>Options</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-2 ">
+              <div className="flex justify-between items-center">
+              <h2 className="text-2xl font-medium mb-2 text-[#444]">Community</h2>
+              <i onClick={toggleCommunity} class={`fa-solid ${showCommunity ? 'fa-chevron-up ': 'fa-chevron-down'} pr-2`}></i>
+              </div>
+              <div className={`${showCommunity ? 'block': 'hidden'} bg-[#FFFFFF] rounded shadow-sm py-3 grid grid-cols-3 gap-3`}>
+                 <div className="text-center">
+                 <i class="fa-solid fa-calendar-day"></i>
+                  <p>Events</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-file-lines"></i>
+                  <p>Blogs</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-shop"></i>
+                  <p>Markets</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-comments"></i>
+                  <p>Forum</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-file-pen"></i>
+                  <p>My Article</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-brands fa-product-hunt"></i>
+                  <p>My Products</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-solid fa-people-group"></i>
+                  <p>My Groups</p>
+                 </div>
+                 <div className="text-center">
+                 <i class="fa-regular fa-file-lines"></i>
+                  <p>My Pages</p>
+                 </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
