@@ -80,6 +80,215 @@ const videoItems = [
     comments: '14 Comments',
     share: '9 Share',
   },
+  {
+    id: "8",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "9",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "10",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "11",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "12",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "13",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "14",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "15",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "16",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "17",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "18",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "19",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "20",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "21",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "22",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "23",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "24",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "25",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
+  {
+    id: "26",
+    videoUrl: "https://www.youtube.com/embed/tgbNymZ7vqY?controls=0",
+    photo: photo,
+    title: "Mission impossible dead reckoning IMX",
+    published: "American, 10 June 2020",
+    views:17,
+    react: "10 Love",
+    comments: '14 Comments',
+    share: '9 Share',
+  },
 ];
 
 const SocialHome = () => { 
@@ -91,11 +300,14 @@ const SocialHome = () => {
   }
 
   return (
-    <div>
-      <div className="px-4 py-6 mt-[70px]">
-        <div class="grid grid-cols-6 gap-4 ">
+ 
+
+    <div  className=" h-[100vh]">
+      <div className="px-4 py-6 mt-[70px]  ">
+        <div class="grid grid-cols-6 gap-4 mt-5">
           {/* ---left side bar start--- */}
-          <div class="col-span-1">
+          <div class="col-span-1 border-4 border-green-500" >
+            <div className="border-4 border-red-500 sticky top-[120px]">
             <div>
               <h2 className="text-2xl font-medium mb-2 text-[#444]">Key Features</h2>
               <div className="bg-[#FFFFFF] rounded shadow-sm">
@@ -120,7 +332,6 @@ const SocialHome = () => {
                 </div>
               </div>
             </div>
-
             <div class="mt-2">
               <h2 className="text-2xl font-medium mb-2 text-[#444]">Account</h2>
               <div className="rounded bg-[#FFFFFF] shadow-sm">
@@ -135,7 +346,6 @@ const SocialHome = () => {
                 </div>
               </div>
             </div>
-
             <div class="mt-2 ">
               <h2 className="text-2xl font-medium mb-2 text-[#444]">Additional Settings</h2>
               <div className="bg-[#FFFFFF] rounded shadow-sm">
@@ -150,7 +360,6 @@ const SocialHome = () => {
                 </div>
               </div>
             </div>
-
             <div class="mt-2 ">
               <div className="flex justify-between items-center">
               <h2 className="text-2xl font-medium mb-2 text-[#444]">Community</h2>
@@ -191,11 +400,16 @@ const SocialHome = () => {
                  </div>
               </div>
             </div>
+
+            </div>
+          
           </div>
           {/* ---left side bar end--- */}
 
+
+
         {/* ---right video part start--- */}
-          <div class="col-span-4">
+          <div class="col-span-4 h-[10000px]">
             <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4">
               {videoItems.map((vdo) => (
                 <div className="bg-[#FFFFFF]">
