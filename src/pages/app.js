@@ -300,13 +300,14 @@ const SocialHome = () => {
   }
 
   return (
-
+ 
+    <>
     <div  className=" h-[100vh]">
-      <div className="px-4 py-6 mt-[70px]">
-        <div class="grid grid-cols-6 gap-4 mt-5 relative">
+      <div className="px-4 py-6 mt-[70px]  ">
+        <div class="grid grid-cols-6 gap-4 mt-5">
           {/* ---left side bar start--- */}
-          <div class="col-span-1 border-4 border-green-500 h-screen overflow-y-auto sticky top-[100px]">
-            <div className="border-4">
+          <div class="col-span-1 border-4 border-green-500 " >
+            <div className="border-4  sticky top-[120px]">
             <div>
               <h2 className="text-2xl font-medium mb-2 text-[#444]">Key Features</h2>
               <div className="bg-[#FFFFFF] rounded shadow-sm">
@@ -534,6 +535,7 @@ const SocialHome = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

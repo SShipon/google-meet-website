@@ -19,7 +19,7 @@ const Navbar = () => {
             MetaViral Pro
           </Link>
         </h1>
-        {/* <!--bar for mobile menu--> */}
+        {/* <!--bar for mobile menu-- menu top sectiooooon> */}
         <a
           onClick={toggleBar}
           href="#"
